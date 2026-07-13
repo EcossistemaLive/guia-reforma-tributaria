@@ -34,15 +34,15 @@
             box-shadow: 0 10px 30px rgba(0, 0, 0, 0.7);
         }
 
-        /* Branding Vidi */
         .header { text-align: center; margin-bottom: 50px; border-bottom: 1px solid var(--border-gray); padding-bottom: 30px; }
         .logo-text { font-family: 'Times New Roman', Georgia, serif; font-size: 32px; letter-spacing: 7px; font-weight: bold; color: var(--text-white); text-transform: uppercase; }
         .logo-sub { font-family: 'Times New Roman', Georgia, serif; font-size: 11px; letter-spacing: 3px; color: var(--accent-gold); text-transform: uppercase; margin-top: 5px; }
 
-        h1, h2, h3 { color: var(--text-white); font-family: 'Times New Roman', Georgia, serif; font-weight: normal; margin-top: 30px; margin-bottom: 15px; }
+        h1, h2, h3 { color: var(--text-white); font-family: 'Times New Roman', Georgia, serif; font-weight: normal; margin-top: 35px; margin-bottom: 15px; }
         h1 { font-size: 28px; text-align: center; color: var(--accent-gold); margin-bottom: 40px; }
         h2 { font-size: 24px; border-bottom: 1px solid var(--border-gray); padding-bottom: 10px; }
         h3 { font-size: 20px; color: var(--accent-gold); }
+        h4 { font-size: 16px; color: var(--text-white); margin-top: 20px; margin-bottom: 10px; }
         
         p, ul, ol { margin-bottom: 20px; font-size: 16px; }
         ul, ol { padding-left: 20px; }
@@ -52,6 +52,9 @@
 
         .alert { background-color: #222; border-left: 4px solid var(--accent-gold); padding: 20px; margin: 20px 0; border-radius: 0 4px 4px 0; }
         .alert strong { color: var(--accent-gold); }
+
+        .info-box { background-color: #1a1a1a; border: 1px solid #333; padding: 20px; margin-bottom: 25px; border-radius: 4px; }
+        .info-box h4 { margin-top: 0; color: var(--accent-gold); border-bottom: 1px solid #333; padding-bottom: 10px; margin-bottom: 15px; }
 
         table { width: 100%; border-collapse: collapse; margin: 30px 0; background-color: #151515; }
         th, td { border: 1px solid var(--border-gray); padding: 15px; text-align: left; }
@@ -77,30 +80,44 @@
         <h1>Guia Prático: A Reforma Tributária no Seu Negócio (2026-2033)</h1>
 
         <div class="alert">
-            <strong>NOTA:</strong> Este manual foi preparado exclusivamente para você se antecipar às mudanças da Reforma Tributária. O objetivo não é falar "juridiquês", mas sim mostrar exatamente <strong>onde o seu dinheiro e a sua operação serão impactados</strong> para que você possa tomar decisões estratégicas agora.
+            <strong>NOTA ESTRATÉGICA:</strong> Este manual foi preparado exclusivamente para você se antecipar às mudanças estruturais da Reforma Tributária (Emenda Constitucional nº 132/2023 e LC 214/2025). O objetivo é traduzir a complexidade legislativa para mostrar exatamente <strong>onde o seu fluxo de caixa, a sua precificação e a sua operação serão impactados</strong>.
         </div>
 
         <h2>1. O Que Muda de Verdade?</h2>
-        <p>O Brasil está substituindo cinco impostos (ICMS, ISS, PIS, Cofins e IPI) por apenas dois:</p>
+        <p>O Brasil está substituindo cinco impostos (ICMS, ISS, PIS, Cofins e IPI) por apenas dois. Juntos, eles formam o chamado <strong>IVA Dual</strong>, com uma alíquota estimada de referência entre <strong>26,5% e 28%</strong>:</p>
         <ul>
-            <li><strong>IBS</strong> (Imposto sobre Bens e Serviços) - Substitui ICMS e ISS (Estados e Municípios)</li>
-            <li><strong>CBS</strong> (Contribuição sobre Bens e Serviços) - Substitui PIS e Cofins (Federal)</li>
-        </ul>
-        <p>Juntos, eles formam o chamado <strong>IVA Dual</strong>, com uma alíquota estimada entre <strong>26,5% e 28%</strong>.</p>
-
-        <h3>Cronograma de Atenção</h3>
-        <ul>
-            <li><strong>2026 (O Teste):</strong> Começa uma cobrança simbólica (1%). Sistemas começam a se adaptar. Em agosto, notas sem os campos corretos podem ser rejeitadas.</li>
-            <li><strong>2027 (A Cobrança Efetiva):</strong> A CBS entra valendo, substituindo o PIS/Cofins. <strong>O Simples Nacional muda:</strong> você vai escolher se paga o novo imposto "por dentro" do Simples (alíquota menor, crédito menor pro cliente) ou "por fora" (alíquota cheia, mas crédito bom pro cliente).</li>
-            <li><strong>2029 a 2032 (Transição):</strong> Você viverá com dois sistemas (o antigo diminuindo e o novo aumentando).</li>
-            <li><strong>2033:</strong> Fim do ICMS e ISS. Tudo será IBS/CBS.</li>
+            <li><strong>IBS</strong> (Imposto sobre Bens e Serviços) - Imposto estadual e municipal com não cumulatividade plena (substitui ICMS e ISS).</li>
+            <li><strong>CBS</strong> (Contribuição sobre Bens e Serviços) - Imposto federal (substitui PIS, Cofins e parte do IPI).</li>
         </ul>
 
-        <h2>2. O Maior Impacto no Dia a Dia: O Split Payment</h2>
+        <h3>O Cronograma Oficial da Reforma</h3>
+        
+        <div class="info-box">
+            <h4>2026: O Ano de Testes e a Plataforma Digital</h4>
+            <p>Início de uma cobrança simbólica (0,9% de CBS e 0,1% de IBS). A <em>Plataforma Digital da Reforma Tributária</em> entrará no ar para apuração assistida e cruzamento contínuo de dados. <strong>Até abril não há multas</strong>, mas atenção: a partir de <strong>agosto de 2026</strong>, notas fiscais sem os campos corretos de IBS/CBS serão rejeitadas pelo sistema, travando o faturamento de quem não é optante pelo Simples.</p>
+        </div>
+
+        <div class="info-box">
+            <h4>2027: O Início da Cobrança Efetiva e Mudanças no MEI</h4>
+            <p>A CBS entra valendo integralmente e o IPI é reduzido a zero (exceto Zona Franca de Manaus), sendo criado o novo "Imposto Seletivo".</p>
+            <p><strong>Atenção MEI:</strong> Os Microempreendedores Individuais passam a ser obrigados a emitir notas fiscais para <em>todas</em> as operações, inclusive para pessoas físicas.</p>
+            <p><strong>Atenção Simples Nacional:</strong> Você passa a ter duas escolhas cruciais: recolher os impostos "por dentro" da guia do Simples (alíquota menor, mas transferindo crédito muito baixo para o cliente) ou "por fora" (pagando a alíquota cheia do IVA, mas gerando crédito integral, essencial para se manter competitivo no mercado B2B).</p>
+        </div>
+
+        <div class="info-box">
+            <h4>2029 a 2032: A Transição Complexa</h4>
+            <p>A alíquota do IBS sobe gradativamente (10% em 2029, 20% em 2030, 30% em 2031, 40% em 2032) enquanto o ICMS e o ISS vão caindo. Durante esses anos, sua empresa conviverá com dois sistemas tributários rodando ao mesmo tempo.</p>
+        </div>
+
+        <div class="info-box">
+            <h4>2033: O Sistema Pleno</h4>
+            <p>Fim definitivo do ICMS, ISS e IPI. Consolidação do IBS e CBS. O Simples Nacional manterá IRPJ, CSLL e CPP dentro da guia DAS, mas o IBS/CBS seguirá a regra escolhida por você ("por dentro" ou "por fora").</p>
+        </div>
+
+        <h2>2. O Impacto Imediato: Split Payment e Fluxo de Caixa</h2>
         <div class="alert">
-            <strong>ATENÇÃO AO NOVO FLUXO DE CAIXA!</strong><br><br>
-            Se você vende muito no <strong>Cartão</strong> ou no <strong>PIX</strong>, prepare-se. O modelo de pagar o imposto "dia 20 do mês seguinte" vai acabar para essas operações.<br><br>
-            Com o <em>Split Payment</em> (pagamento dividido), a própria maquininha ou banco vai separar o dinheiro: <strong>o valor do IBS/CBS vai direto para o Governo no momento da venda.</strong>
+            <strong>O Fim do "Pagar no Dia 20":</strong><br><br>
+            Se você vende muito no <strong>Cartão</strong> ou no <strong>PIX</strong>, o mecanismo de <em>Split Payment</em> vai mudar radicalmente sua tesouraria. No momento da transação eletrônica, a instituição financeira irá reter a parcela correspondente ao IBS/CBS e repassar direto ao Governo.
         </div>
 
         <table>
@@ -117,44 +134,50 @@
                 </tr>
                 <tr>
                     <td>Entra R$ 1.000,00 (menos taxas) na sua conta</td>
-                    <td>O Banco/Cartão já retém o IBS/CBS (ex: R$ 265)</td>
+                    <td>A Maquininha/Banco já retém o imposto na fonte</td>
                 </tr>
                 <tr>
-                    <td>Você junta dinheiro para pagar a guia do DAS no dia 20.</td>
-                    <td><strong>Entra R$ 735,00 líquidos na sua conta.</strong> O imposto já foi pago.</td>
+                    <td>Você faz caixa com esse dinheiro para pagar o imposto via DAS no mês seguinte.</td>
+                    <td><strong>Entra o valor líquido (já descontado de IBS/CBS).</strong> O imposto já foi pago.</td>
                 </tr>
             </tbody>
         </table>
-        <p><strong>Consequência:</strong> Você precisará de mais Capital de Giro, pois o dinheiro entrará líquido na conta.</p>
+        <p><strong>Ação Estratégica:</strong> Empresas com alta penetração de pagamentos eletrônicos precisarão recalcular seus indicadores de capital de giro e revisar prazos de pagamento com fornecedores.</p>
 
-        <h2>3. O Impacto Específico no Seu Nicho</h2>
+        <h2>3. Impactos por Tipo de Negócio</h2>
+
+        <p>Segundo estudos (Sescon-SP e Fenacon), a reforma tende a elevar a carga tributária das empresas prestadoras de serviço em torno de <strong>14% a 18%</strong> (empresas no lucro presumido que hoje pagam 3,65% de PIS/Cofins + 5% de ISS). O principal gargalo é que <strong>Folha de Pagamento não gera crédito no novo modelo IVA</strong>.</p>
 
         <h3>🔧 Oficinas Mecânicas</h3>
-        <p>Seu negócio mistura Venda de Peças com Mão de Obra. Isso muda tudo.</p>
         <ul>
-            <li><strong>A Dor:</strong> A sua Mão de Obra vai ficar mais cara em impostos, porque <strong>funcionário (folha de pagamento) não gera crédito de imposto</strong>.</li>
-            <li><strong>O Alívio:</strong> Peças e óleos que você compra vão gerar muito crédito (se comprados de fornecedores com nota certa).</li>
-            <li><strong>Estratégia:</strong> Será fundamental separar muito bem na Nota Fiscal o que é serviço e o que é peça. Oficinas com alto custo de folha sofrerão mais pressão; oficinas organizadas, que compram peças com NF, usarão créditos a seu favor.</li>
+            <li><strong>A Dor (Serviço):</strong> A mão de obra sofrerá forte pressão de custos. Serviços de diagnóstico e mecânica que hoje pagam em torno de 2 a 5% de ISS enfrentarão a alíquota efetiva mais alta do IVA Dual sem capacidade de compensar via créditos da folha.</li>
+            <li><strong>O Alívio (Peças):</strong> A compra de óleos, fluidos e peças de revenda passará a gerar crédito tributário pleno de IBS/CBS, desde que com NF correta, reduzindo o efeito cascata.</li>
+            <li><strong>Estratégia:</strong> Separe com precisão a composição do seu preço entre "Mão de Obra" e "Peças". Avalie se vale a pena migrar do Simples Tradicional para o Híbrido, caso atenda muitas transportadoras ou frotistas (clientes B2B que vão exigir crédito de você).</li>
         </ul>
 
         <h3>🛍️ Lojas de Utilidades Domésticas</h3>
-        <p>O comércio tende a sentir menos dores no longo prazo.</p>
         <ul>
-            <li><strong>A Dor:</strong> As vendas interestaduais (internet/marketplaces) terão tributação <strong>no destino</strong> (no estado do comprador). Cuidado extra ao emitir NFs.</li>
-            <li><strong>O Alívio:</strong> Como você revende produtos, praticamente tudo o que entra no estoque <strong>gera crédito</strong> que abate o imposto que você tem a pagar na venda.</li>
-            <li><strong>Estratégia:</strong> O controle de estoque precisará ser rígido. Fornecedor sem nota ou cadastro errado no sistema significa perder crédito e jogar dinheiro no lixo.</li>
+            <li><strong>A Dor (Tributação no Destino):</strong> Nas vendas para fora do seu estado (e-commerce/marketplaces), a tributação será feita no destino do consumidor. Isso exige extrema atenção à emissão correta das NFs.</li>
+            <li><strong>O Alívio (Não Cumulatividade):</strong> Como atacadista/varejista, praticamente tudo que entra no seu estoque gera crédito que abate do imposto da sua venda. </li>
+            <li><strong>Estratégia:</strong> Terceirização informal ou compras sem NF serão inviáveis. É preciso investir pesado na gestão sistêmica do estoque. Quem comprar "quente", ganha crédito; quem não rastrear, perde dinheiro. Além disso, o Split Payment exigirá negociações duras de prazos com seus fornecedores.</li>
         </ul>
 
         <h3>🏋️ Academias de Crossfit</h3>
-        <p>Seu negócio é um serviço intensivo em mão de obra e aluguel.</p>
         <ul>
-            <li><strong>A Dor:</strong> Assim como as oficinas, seus custos pesados (treinadores e recepção) não geram créditos. Mensalidades podem sofrer alta de imposto. Além disso, mensalidades em recorrência pelo cartão sofrem retenção imediata (<em>Split Payment</em>).</li>
-            <li><strong>O Alívio:</strong> Produtos vendidos (roupas, suplementos) geram crédito. Existe um debate para que saúde/bem-estar tenha alíquota reduzida, mas ainda precisa de pressão política e regulamentação.</li>
-            <li><strong>Estratégia:</strong> Planeje muito bem os meses de baixa de alunos, pois o dinheiro cairá na conta com imposto já descontado.</li>
+            <li><strong>A Dor (Estrutura de Custos):</strong> Serviço puro com alto custo de folha (treinadores/recepção) e aluguel de espaço. Como folha não gera crédito, e você lida com recorrência de mensalidades no cartão de crédito, o caixa sentirá o peso imediato das retenções do <em>Split Payment</em>.</li>
+            <li><strong>Debate Jurídico (Essencialidade):</strong> Existe uma discussão sobre o enquadramento de serviços esportivos como "essenciais" (saúde e bem-estar), o que garantiria redução da alíquota. É fundamental acompanhamento jurídico. Vendas acessórias (roupas, suplementos) geram crédito.</li>
+            <li><strong>Estratégia:</strong> Ajustar o planejamento de caixa para os meses de baixa (sazonalidade de matrículas), revisar contratos e políticas de descontos, e reestruturar os planos anuais para evitar a sobrecarga de inadimplência e perda brusca de fluxo.</li>
         </ul>
 
-        <h2>4. O Que Fazer Hoje? (Checklist do Empresário)</h2>
-        <p>Não espere 2026. O risco da inércia é ter a emissão das suas notas fiscais travada (impedindo você de vender).</p>
+        <h2>4. Multas, Glosas e Conformidade (O Risco Operacional)</h2>
+        <p>A nova fiscalização em tempo real não perdoará erros de cadastro. Observa-se os seguintes riscos iminentes:</p>
+        <ul>
+            <li><strong>Glosas e Disputas B2B:</strong> Se o seu fornecedor lançar um NCM errado na nota ou não classificar corretamente, você pode perder o direito de descontar esse imposto da sua operação. Clientes grandes passarão a "rejeitar" notas erradas de pequenos fornecedores.</li>
+            <li><strong>Penalidades Pesadas:</strong> Já em 2026/2027, descumprimentos e erros em obrigações acessórias gerarão multas agressivas estipuladas em 6% sobre o valor da operação (para CBS) e 12% (para IBS). </li>
+        </ul>
+
+        <h2>5. O Que Fazer Hoje? (Checklist do Empresário)</h2>
+        <p>Não espere a água bater. Siga este plano de ação imediato:</p>
         
         <div class="alert">
             <strong>PLANO DE AÇÃO (2025/2026):</strong>
@@ -162,23 +185,23 @@
 
         <div class="checklist-item">
             <div class="checklist-box"></div>
-            <div class="checklist-text"><strong>Chamar o seu Fornecedor de Sistema (ERP):</strong> Pergunte se eles já têm um cronograma para atualizar as Notas Fiscais para incluir os campos de IBS/CBS.</div>
+            <div class="checklist-text"><strong>Realizar Diagnóstico Tributário com Contador:</strong> Simule sua permanência no Simples vs. Simples Híbrido vs. Lucro Presumido, analisando o percentual do seu negócio que é B2C (consumidor final) x B2B (empresas).</div>
         </div>
         <div class="checklist-item">
             <div class="checklist-box"></div>
-            <div class="checklist-text"><strong>Revisão de Cadastros (NCM):</strong> Faça um mutirão de cadastro. Produtos com códigos NCM genéricos ou errados farão você perder o direito ao crédito.</div>
+            <div class="checklist-text"><strong>Atualizar o ERP e Sincronizar Emissão de Notas:</strong> Confirme se sua empresa de software já está se adequando para os novos campos da Plataforma Digital, evitando que suas notas sejam travadas a partir de agosto de 2026.</div>
         </div>
         <div class="checklist-item">
             <div class="checklist-box"></div>
-            <div class="checklist-text"><strong>Conversa Estratégica com o Contador:</strong> Para 2027, decidam juntos se o negócio ficará no Simples recolhendo "por dentro" ou "por fora". Isso afeta diretamente seus clientes PJ.</div>
+            <div class="checklist-text"><strong>Auditoria de NCM (Estoque e Peças):</strong> Faça uma revisão completa do cadastro dos produtos. NCM genérico significa perda de dinheiro na tomada de crédito.</div>
         </div>
         <div class="checklist-item">
             <div class="checklist-box"></div>
-            <div class="checklist-text"><strong>Revisar o Fluxo de Caixa:</strong> Comece a calcular suas contas mensais sabendo que o dinheiro do cartão chegará menor a partir de 2027.</div>
+            <div class="checklist-text"><strong>Recalcular a Formação de Preço e Fluxo de Caixa:</strong> Leve em conta o desconto imediato (Split Payment) e repasse os reajustes necessários para clientes com transparência, prevendo isso nos seus contratos longos.</div>
         </div>
 
-        <p style="margin-top: 40px; font-size: 12px; text-align: center; color: #666;">
-            <em>Este material é de caráter consultivo. Quaisquer tomadas de decisões definitivas sobre regimes de tributação devem ser realizadas em conjunto com a contabilidade da sua empresa.</em>
+        <p style="margin-top: 50px; font-size: 12px; text-align: center; color: #666; border-top: 1px solid #333; padding-top: 20px;">
+            <em>Este material é de caráter estratégico e consultivo. Quaisquer tomadas de decisões definitivas sobre regimes de tributação devem ser realizadas em conjunto com a contabilidade e a assessoria jurídica da sua empresa.</em>
         </p>
     </div>
 </body>
